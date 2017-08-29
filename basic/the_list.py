@@ -16,3 +16,6 @@ print('classmates =',classmates)
 
 classmates.append('Lucy')
 print('classmates =',classmates)
+
+for i,value in enumerate(classmates):
+    print(i,value)
